@@ -1,7 +1,5 @@
 import random
-
 score=0
-
 class InvalidValueException(Exception):
     pass
 
@@ -140,7 +138,3 @@ class Cricket():
             print("Draw")
             print("Commputer's Score: ",self.temp_pc_score)
             print("User's Score: ",self.temp_score)
-
-game4=Cricket()
-game4.printRules()
-game4.matchStart()
