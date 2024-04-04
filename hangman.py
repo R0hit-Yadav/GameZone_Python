@@ -75,7 +75,7 @@ class Hangman:
                 self.l7.config(text="   |            ++")
                 self.l8.config(text="  / \\           ++")
                 self.i.destroy()
-                self.guess_btn.config(text="You Won! You Guessed it right",command=self.root.destroy)
+                self.guess_btn.config(text="YOU WON! YOU GUESSED IT RIGHT",command=self.root.destroy)
         else:
             self.hanger()
     def hanger(self):
@@ -103,4 +103,4 @@ class Hangman:
         elif self.c==7:
             self.l6.config(text="  / \\           ++")
             self.i.destroy()
-            self.guess_btn.config(text="Game over!You Hanged" ,command=self.root.destroy)
+            self.guess_btn.config(text="GAME OVER!YOU HANGED" ,command=self.root.destroy)

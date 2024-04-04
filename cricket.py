@@ -27,12 +27,12 @@ class Cricket():
         while True: 
             self.user_choice=int(input("Enter Integer Between 0 to 6 to get pc OUT: "))
             if self.user_choice>6 or self.user_choice<0:
-                raise InvalidValueException("You Entered Invalid Value")
+                raise InvalidValueException("You Entered Invalid Value!!")
             self.pc_choice=random.choice([0,1,2,3,4,5,6])
             if self.user_choice==self.pc_choice :
                 if self.pc_score==-1:
                     self.pc_score=0
-                print("It is Out")
+                print("IT IS OUT!!")
                 break
             elif ((self.pc_score+self.pc_choice>self.user_score) and self.user_score!=-1):
                 print("Computer Scored ",self.pc_choice," Runs")
@@ -77,8 +77,8 @@ class Cricket():
         return self.user_score
     def tossTime(self):
         print("\n\nWohoooo! It's a Toss Time: ")
-        print("Enter 1 for Head: ")
-        print("Enter 2 for Tails: ")
+        print("Enter 1 for HEAD: ")
+        print("Enter 2 for TAILS: ")
         user_toss=int(input("Enter Your Call: "))
         if user_toss>2 or user_toss<1:
             raise InvalidValueException

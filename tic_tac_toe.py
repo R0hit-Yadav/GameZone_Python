@@ -31,15 +31,15 @@ class TicTacToe:
             self.computer_won=self.isWon("O")
             if len(self.l)==0:
                 self.printboard()
-                print("Draw")
+                print("DRAW")
                 break
             if self.user_won:
                 self.printboard()
-                print("User Won")
+                print("USER WON !!")
                 break
             elif self.computer_won:
                 self.printboard()
-                print("Computer Won")
+                print("COMPUTER WON !!")
                 break
 
     def printboard(self):

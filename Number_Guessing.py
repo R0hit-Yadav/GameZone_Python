@@ -17,10 +17,10 @@ class number:
         rand_num = random.randint(1, 10)
         attempts_list = []
 
-        print('Hello traveler! Welcome to the game of guesses!')
+        print('Hello Gamer! Welcome to the game of guesses!')
         player_name = input('What is your name? ')
         wanna_play = input(
-            f'Hi, {player_name}, would you like to play '
+            f'Hi, {player_name}, Would you like to play '
             f'the guessing game? (Enter Yes/No): ')
 
         if wanna_play.lower() != 'yes':
