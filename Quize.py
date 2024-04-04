@@ -22,109 +22,109 @@ class Quize:
             ans=input("==========>")
             if ans.lower() == 'a':
                 score=score+1
-                print("Correct")
+                print("Correct !!")
             else:
-                print("Incorrect")
+                print("Incorrect !!")
 
             
-            print(a)
+            print()
             print("Question 2- Who is the current President of France as of 2024?")
             give_options("Marine Le Pen", "Emmanuel Macron", "François Hollande","Nicolas Sarkozy")
             ans = input("==========>")
             if ans.lower() == 'b':
                 score=score+1
-                print("Correct")
+                print("Correct !!")
             else:
-                print("Incorrect")
+                print("Incorrect !!")
 
             
-            print(a)
+            print()
             print("Question 3- In which year did the Titanic sink ? ")
             give_options("1910", "1912", "1915" ,"1917")
             ans = input("==========>")
             if ans.lower() == 'b':
                 score=score+1
-                print("Correct")
+                print("Correct !!")
             else:
-                print("Incorrect")
+                print("Incorrect !!")
 
             
-            print(a)
+            print()
             print("Question 4- In which year did World War I begin?")
             give_options("1914", "1916", "1918" ,"1920")
             ans = input("==========>")
             if ans.lower() == 'a':
                 score=score+1
-                print("Correct")
+                print("Correct !!")
             else:
-                print("Incorrect")
+                print("Incorrect !!")
 
                 
-            print(a)
+            print()
             print("Question 5-In Hindu mythology, who is considered the creator god, responsible for the creation of the universe?")
             give_options("Vishnu", "Shiva", "Brahma" ,"Ganesh")
             ans = input("==========>")
             if ans.lower() == 'c':
                 score=score+1
-                print("Correct")
+                print("Correct !!")
             else:
-                print("Incorrect")
+                print("Incorrect !!")
             
-            print(a)
+            print()
             print("Question 6- Who is the preserver god in Hindu mythology, responsible for maintaining the balance of the universe?")
             give_options("Shiva", "Brahma", "Indra" ,"Vishnu")
             ans = input("==========>")
             if ans.lower() == 'd':
                 score=score+1
-                print("Correct")
-            else:
-                print("Incorrect")
+                print("Correct !!")
+            else: 
+                print("Incorrect !!")
                                
             
                                
             
-            print(a)
+            print()
             print("Question 7- The angle of elevation of the top of a tower from a point 60 meters from its base is 30 degree What is the height of the tower?")
             give_options("30m", "60m", "90m" ,"120m")
             ans = input("==========>")
             if ans.lower() == 'd':
                 score=score+1
-                print("Correct")
+                print("Correct !!")
             else:
-                print("Incorrect")
+                print("Incorrect !!")
                                
             
-            print(a)
+            print()
             print("Question 8- The radius of a circle is increasing at a rate of 3 cm/s. What is the rate of increase of its circumference when the radius is 5 cm?")
             give_options("3 cm/s", "6 cm/s", "9 cm/s" ,"15 cm/s")
             ans = input("==========>")
             if ans.lower() == 'c':
                 score=score+1
-                print("Correct")
+                print("Correct !!")
             else:
-                print("Incorrect")
+                print("Incorrect !!")
                                
             
-            print(a)
+            print()
             print("Question 9- What is the highest ipl score by a player and from which team ?")
             give_options("158 Mccullum From KKR", "180 Warner From DC", "175 Gayle From RCB" ,"168 Rohit MI")
             ans = input("==========>")
             if ans.lower() == 'c':
                 score=score+1
-                print("Correct")
+                print("Correct !!")
             else:
-                print("Incorrect")
+                print("Incorrect !!")
                                
             
-            print(a)
+            print()
             print("Question 5- which player has win most ipl trophy as player?")
             give_options("Rohit Sharma", "Virat Kholi", "MS Dhoni" ,"Ab de villiers")
             ans = input("==========>")
             if ans.lower() == 'a':
                 score=score+1
-                print("Correct")
+                print("Correct !!")
             else:
-                print("Incorrect")
+                print("Incorrect !!")
 
 
 
