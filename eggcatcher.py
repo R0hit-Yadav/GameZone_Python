@@ -6,11 +6,13 @@ class EggCatcher:
         self.root.title("Egg Catcher")
         self.height=600
         self.width=500
+
         #returns available screen's width and height
         self.x1=self.root.winfo_screenwidth()
         self.y1=self.root.winfo_screenheight()
         x=(self.x1/2)-(self.width/2)
         y=(self.y1/2)-(self.height/2)
+
         #set screen at center
         self.root.geometry('%dx%d+%d+%d' % (self.width, self.height, x, y))
         self.canvas=Canvas(self.root,width=500,height=600)
@@ -21,11 +23,11 @@ class EggCatcher:
         self.canvas.coords(self.score_text, 400, 10)
         self.root.attributes("-topmost", True) 
     def move_left(self):
-        if self.canvas.coords(self.catcher)[0]>=20:
-            self.canvas.move(self.catcher, -20, 0)
+        if self.canvas.coords(self.catcher)[0]>=80:
+            self.canvas.move(self.catcher, -60, 0)
     def move_right(self):
-        if self.canvas.coords(self.catcher)[2]<=480:
-            self.canvas.move(self.catcher, 20, 0)
+        if self.canvas.coords(self.catcher)[2]<=800:
+            self.canvas.move(self.catcher, 60, 0)
         
     def moveEgg(self,egg,score):
         self.canvas.move(self.egg,0,3)
@@ -55,3 +57,5 @@ class EggCatcher:
         self.canvas.pack()
         self.root.mainloop()
  
+game2=EggCatcher()
+game2.main()
