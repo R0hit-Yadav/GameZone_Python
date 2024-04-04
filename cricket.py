@@ -13,18 +13,18 @@ class Cricket():
         self.temp_score=0
         self.temp_pc_score=0
     def printRules(self):
-        print("      +"+"-"*70+"+")
-        print("      |"+" "*70+"|")
-        print("      |"+" "*30+": RULES :"+" "*31+"|")
-        print("      |"+" "*70+"|")
-        print("      | BATTING : USER WILL ENTER A NUMBER FROM 1 TO 6. WHILE BATTING THE    |")
-        print("      | SELECTED NUMBER WILL BE ADDED TO THE TEAM SCORE. IF THE COMPUTER     |")
-        print("      | GUESSES THE SAME NUMBER AS YOU THE BATSMAN IS OUT.                   |")
-        print("      |"+" "*70+"|")
-        print("      | Computer will show a number if both number are same then batsman gets out. ")
-        print("      | Same Rule Will apply for User's Bowling User Have to guess same number of pc to get it OUT")
-        print("      |"+" "*70+"|")
-        print("      +"+"-"*70+"+")
+        print("      +"+"-"*94+"+")
+        print("      |"+" "*94+"|")
+        print("      |"+" "*38+": RULES :"+" "*47+"|")
+        print("      |"+" "*94+"|")
+        print("      | BATTING : USER WILL ENTER A NUMBER FROM 1 TO 6. WHILE BATTING THE                            |")
+        print("      | SELECTED NUMBER WILL BE ADDED TO THE TEAM SCORE. IF THE COMPUTER                             |")
+        print("      | GUESSES THE SAME NUMBER AS YOU THE BATSMAN IS OUT.                                           |")
+        print("      |"+" "*94+"|")
+        print("      | Computer will show a number if both number are same then batsman gets OUT.                   |")
+        print("      | Same Rule Will apply for User's Bowling User Have to guess same number of pc to get it OUT   |")
+        print("      |"+" "*94+"|")
+        print("      +"+"-"*94+"+")
     def userBowling(self):
         while True: 
             self.user_choice=int(input("Enter Integer Between 0 to 6 to get pc OUT: "))
@@ -140,3 +140,7 @@ class Cricket():
             print("Draw")
             print("Commputer's Score: ",self.temp_pc_score)
             print("User's Score: ",self.temp_score)
+
+game4=Cricket()
+game4.printRules()
+game4.matchStart()
