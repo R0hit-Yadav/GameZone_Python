@@ -1,4 +1,5 @@
 import random
+from tkinter import messagebox
 class TicTacToe:
     def __init__(self):
         self.board_place=[0,1,2,3,4,5,6,7,8]
@@ -32,14 +33,17 @@ class TicTacToe:
             if len(self.l)==0:
                 self.printboard()
                 print("DRAW")
+                messagebox.showinfo("Result","It's DROW!!")
                 break
             if self.user_won:
                 self.printboard()
                 print("USER WON !!")
+                messagebox.showinfo("Result","User WON !!")
                 break
             elif self.computer_won:
                 self.printboard()
                 print("COMPUTER WON !!")
+                messagebox.showinfo("Result","COMPUTER WON !!")
                 break
 
     def printboard(self):

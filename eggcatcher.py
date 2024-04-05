@@ -57,5 +57,5 @@ class EggCatcher:
         self.canvas.pack()
         self.root.mainloop()
  
-game2=EggCatcher()
-game2.main()
+# game2=EggCatcher()
+# game2.main()
